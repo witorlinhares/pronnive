@@ -34,9 +34,9 @@ a{
     text-decoration: none;
 }
 
-.degrade{
+/* .degrade{
     background: linear-gradient(to right, #7e42af, #60278f);
-}
+} */
 
 header{
     text-align: center;
@@ -84,6 +84,7 @@ a.link button{
     color: #fff;
     font-weight: 500;
     transition: 0.5s;
+    background: #40b35c;
 }
 
 a.link button:hover{
