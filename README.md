@@ -5,7 +5,6 @@
 <p>Objetivo da página: Estatégia de links rápidos para redes socais.</p>
 <p>OBS: Já estamos trabalhando no modelo de site principal.</p>
 Deploy: https://pronnive.com.br
-<br>
 ![pronnive-page](https://github.com/witorlinhares/pronnive/assets/154279407/c9c240a5-0bb7-4283-839f-179166f22495)
 
 
