@@ -39,7 +39,7 @@ a{
 }
 
 /*button degrade and animation*/
-.degrade{
+/* .degrade{
     background: linear-gradient(to right, #ff9134, #ff397b, #9b46fb);
     background-size: 200%;
     animation: degrade-btn 7s infinite alternate;
@@ -52,7 +52,7 @@ a{
         background-position-x: 100%;
     }
 
-}
+} */
 
 /*header*/
 header{
@@ -113,12 +113,14 @@ a.link button{
     color: #fff;
     font-weight: 500;
     transition: 0.5s;
+    background: #49d06c;
 }
 
 /*button hover*/
 a.link button:hover{
     transform: scale(1.05);
     color: #fff;
+    background: hsl(136, 50%, 44%);
 }
 
 /*footer*/
