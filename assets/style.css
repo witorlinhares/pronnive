@@ -153,19 +153,7 @@ a.link button:hover{
 @media only screen and (max-width: 600px) {
 
     .img{
-        max-width: 30%;
-        padding-top: 20%;
-    }
-    
-    section.btn-links{
-        padding-top: 3%;
-    }
-}
-
-@media only screen and (max-width: 900px) {
-
-    .img{
-        max-width: 25%;
+        max-width: 34%;
         padding-top: 20%;
     }
     
