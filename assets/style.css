@@ -7,24 +7,33 @@ body{
     margin: 0;
     width: 100vw;
     height: 100vh;
-    background-color: #070707;
+    background-color: #fff;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
+    position: relative;
 }  
-  
+
 /*content*/
 .container{
-    max-width: 350px; /*button width*/
+    max-width: 350px;
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
+    padding: 10;
 }
 
-/*background*/
+.info, .link-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* background*/
 #particles-js{
       position: fixed;
       margin: 0;
@@ -63,26 +72,26 @@ header{
 
 /*logo*/
 img{
-    max-width: 45px;
+    max-width: 10%;
+    padding: 5% 0% 1%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     position: relative;
 }
 
 /*title*/
-header h1{
-    font-size: 30px;
-    color: #fff;
+.title{
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #070707;
     letter-spacing: 1px;
     font-weight: 400;
+    padding-bottom: 1%;
     position: relative;
-}
-
-/*paragraph*/
-header p{
-    font-size: 20px;
-    color: #ffffff;
-    letter-spacing: 1px;
-    position: relative;
-    font-weight: 200;
 }
 
 /*link button*/
@@ -113,32 +122,54 @@ a.link button{
     color: #fff;
     font-weight: 500;
     transition: 0.5s;
-    background: #49d06c;
+    background: #1441e7;
 }
 
 /*button hover*/
 a.link button:hover{
     transform: scale(1.05);
     color: #fff;
-    background: hsl(136, 50%, 44%);
+    background: #153cc9;
+}
+
+/*hr*/
+.line{
+    display: flex;
+    width: 100%;
+    position: relative;
 }
 
 /*footer*/
-div footer{
-    display: block;
+.footer{
+    color: #070707;
+    font-weight: 500;
+    padding: 10% 0% 20%;
+    margin: 0;
     text-align: center;
-    font-weight: 200;
-    justify-content: center;
-    padding: 10px;
-    margin-top: 80px;
     position: relative;
-    color: #fff;
-    background: #1b1b1b;
 }
 
 /*responsiveness*/
 @media only screen and (max-width: 600px) {
-    div footer{
-        margin-top: 35%;
+
+    .img{
+        max-width: 30%;
+        padding-top: 20%;
+    }
+    
+    section.btn-links{
+        padding-top: 3%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    .img{
+        max-width: 25%;
+        padding-top: 20%;
+    }
+    
+    section.btn-links{
+        padding-top: 3%;
     }
 }
