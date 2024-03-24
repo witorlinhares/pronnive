@@ -27,6 +27,7 @@ body{
 
 .info, .link-img{
     display: flex;
+    padding: 4% 0% 1%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -73,7 +74,7 @@ header{
 /*logo*/
 img{
     max-width: 10%;
-    padding: 7% 0% 1%;
+    /* padding: 7% 0% 1%; */
     margin: 0;
     justify-content: center;
     align-items: center;
@@ -128,8 +129,8 @@ a.link button{
 /*button hover*/
 a.link button:hover{
     transform: scale(1.05);
-    color: #070707;
-    background: #d8d8d8;
+    color: #fff;
+    background: #f24f00;
 }
 
 /*footer*/
